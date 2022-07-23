@@ -7,8 +7,8 @@
 }
 body{
     background: hsla(0, 0%, 100%, 0.75);
-    /* max-width: 1440px; */
     width: 100%;
+    /* max-width: 1440px; */
     /* height: 100vh; */
 }
 
@@ -27,6 +27,8 @@ body{
 
 img{
     height: 40px;
+    padding: 20px 0 10px 0;
+
 }
 
 .box-1 {
@@ -53,7 +55,7 @@ h1 {
     text-transform: uppercase;
     color: white;
     font-size: 2.2em;
-    padding: 10px 0 10px 0;  
+    padding: 10px 0 20px 0;  
     letter-spacing: 1px;
 }
 p {
@@ -62,7 +64,7 @@ p {
     line-height: 1.5em;
     color: white;
     font-weight: light;
-    padding: 5px 0 45px 0;
+    padding: 10px 0 80px 0;
 }
 .p1{
     width: 13em;
