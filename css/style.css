@@ -127,7 +127,7 @@ p {
                                                 /* THIS MEDIA FOR A LOWER SCREEN WIDTH */
 
 
-@media screen and (max-width: 40em) {
+@media screen and (max-width: 30em) {
     
     *{
         margin: 0;
@@ -215,5 +215,15 @@ p {
         text-decoration: none;
                
     }
+    .attribution { 
+        font-size: 15px; 
+        text-align: left;  
+        margin-bottom: 20px;
+        /* width: 5em; */
+      }
+
+      .attribution a { 
+        color: hsl(228, 45%, 44%);  
+      }
 
   }
