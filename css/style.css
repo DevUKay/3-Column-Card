@@ -113,6 +113,9 @@ p {
     color: white;
 }
 
+                                                /* THIS MEDIA FOR A LOWER SCREEN WIDTH */
+
+
 @media screen and (max-width: 375px) {
     
     *{
