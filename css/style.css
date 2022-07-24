@@ -7,18 +7,16 @@
 }
 body{
     background: hsla(0, 0%, 100%, 0.75);
-    
+    width: 100%;
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: auto;
     height: 100vh;
     
-    /* overflow-wrap: break-word; */
-
 }
 
 .box-1, .box-2, .box-3 {
@@ -37,9 +35,8 @@ img{
     height: 400px;
     width: 200px;
     border-radius: 10px 0 0 10px;
-    
-    
 }
+
 .box-2 {
     background-color: hsl(184, 100%, 22%);
     height: 400px;
@@ -156,9 +153,9 @@ p {
         background-color: hsl(184, 100%, 22%);
         height: 420px;
         width: 180px;
-        /* z-index: 1; */
-        
+                
     }
+
     .box-3 {
         background-color: hsl(179, 100%, 13%);
         height: 420px;
@@ -217,9 +214,9 @@ p {
     }
     .attribution { 
         font-size: 15px; 
-        text-align: left;  
-        margin-bottom: 20px;
-        /* width: 5em; */
+        /* text-align: left; */
+        /* margin-top: 40px; */
+        display: inline-block;
       }
 
       .attribution a { 
