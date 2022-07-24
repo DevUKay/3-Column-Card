@@ -1,28 +1,28 @@
 *{
     padding: 0;
     margin: 0;
-    /* box-sizing: border-box; */
+    
     font-family: 'Lexend Deca', sans-serif;
    
 }
 body{
     background: hsla(0, 0%, 100%, 0.75);
-    width: 100%;
+    /* width: 100%; */
+    /* box-sizing: border-box; */
 }
 
 .container {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
-    height: 100vh;
+    height: 50rem;
+    /* width: 100%; */
     
 }
 
 .box-1, .box-2, .box-3 {
     padding: 3em;
     text-align: left;
-    
 }
 
 img{
@@ -41,7 +41,6 @@ img{
     background-color: hsl(184, 100%, 22%);
     height: 400px;
     width: 200px;
-    
 }
 .box-3 {
     background-color: hsl(179, 100%, 13%);
@@ -124,7 +123,7 @@ p {
                                                 /* THIS MEDIA FOR A LOWER SCREEN WIDTH */
 
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 650px) {
     
     *{
         margin: 0;
@@ -138,37 +137,40 @@ p {
         justify-content: center;
         flex-direction: column;
         align-items: center;
-        height: 100vh;
-        margin-top: 20em;
+        height: 100%;
+        /* margin-top: 15em; */
     }
-
+    img{
+        height: 2.5em;
+        padding: 20px 0 10px 0;
+    }
     .box-1 {
         background-color: hsl(31, 77%, 52%);
-        height: 420px;
+        height: 350px;
         width: 180px;
         border-radius: 10px 10px 0 0;
         /* margin-top: 10em; */
     }
     .box-2 {
         background-color: hsl(184, 100%, 22%);
-        height: 420px;
+        height: 350px;
         width: 180px;
                 
     }
 
     .box-3 {
         background-color: hsl(179, 100%, 13%);
-        height: 420px;
+        height: 350px;
         width: 180px;
         border-radius: 0 0 10px 10px;
-        margin-bottom: 20rem;
+        /* margin-bottom: 40rem; */
     }
     h1 {
         font-family:  'Big Shoulders Display', cursive;
         text-transform: uppercase;
         color: white;
         font-size: 2em;
-        padding: 10px 0 10px 0;  
+        padding: 20px 0 20px 0;  
         letter-spacing: 1px;
     }
     p {
@@ -177,10 +179,16 @@ p {
         line-height: 1.5em;
         color: white;
         font-weight: light;
-        padding: 5px 0 45px 0;
+        padding: 1em 0 6em 0;
     }
     .p1{
         width: 13em;
+    }
+    .p2{
+        width: 15em;
+    }
+    .p3{
+        width: 15em;
     }
     
     .btn1 {
@@ -213,10 +221,10 @@ p {
                
     }
     .attribution { 
-        font-size: 15px; 
+        font-size: 1rem; 
         /* text-align: left; */
         /* margin-top: 40px; */
-        display: inline-block;
+        display: block;
       }
 
       .attribution a { 
