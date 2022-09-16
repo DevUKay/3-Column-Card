@@ -11,7 +11,7 @@ html{
 
 body{
     background: hsl(0, 0%, 95%);
-    /* width: 100%; */
+    width: 100%;
     /* box-sizing: border-box; */
 }
 
@@ -19,8 +19,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80vh;
-    width: 100vw;
+    height: 100vh;
+    width: 100%;
     
 }
 
@@ -133,9 +133,8 @@ p {
     *{
         margin: 0;
         padding: 0;
-        /* box-sizing: border-box; */
-
     }
+    
     header {
         /* background-color: aqua; */
         display: flex;
